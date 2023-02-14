@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3mfSantizer", "3mfSantizer\3mfSantizer.csproj", "{24AB98BD-905C-4035-824D-0C293DD6D0C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24AB98BD-905C-4035-824D-0C293DD6D0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AB98BD-905C-4035-824D-0C293DD6D0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AB98BD-905C-4035-824D-0C293DD6D0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AB98BD-905C-4035-824D-0C293DD6D0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9534ADA8-1FEE-4784-913F-7B1CBCF408F0}
+	EndGlobalSection
+EndGlobal
