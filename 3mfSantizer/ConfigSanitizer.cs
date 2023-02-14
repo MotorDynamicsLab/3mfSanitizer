@@ -28,7 +28,8 @@ namespace _3mfSantizer
             foreach (ZipArchiveEntry entry in archive.Entries)
             {
                 if (entry.FullName.EndsWith(".config", StringComparison.OrdinalIgnoreCase) &&
-                    entry.FullName.StartsWith("Metadata/") )
+                    entry.FullName.StartsWith("Metadata/") &&
+                    !entry.FullName.EndsWith("_model.config"))
                 {
                     deletionList.Add(entry);
                 }
