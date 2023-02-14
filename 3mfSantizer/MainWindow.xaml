@@ -5,13 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3mfSantizer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="3MF Config Sanitizer" Height="250" Width="500">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button Grid.Column="0" Content="Sanitize Single File" Click="FileSelect" />
-        <Button Grid.Column="1" Content="Sanitize Directory" Click="FolderSelect" />
+        <TextBlock Grid.ColumnSpan="2" Text="Select a single 3mf file or directory to sanitize. All files are modified in-place."/>
+        <Button Margin="5" Grid.Row="1" Grid.Column="0" Content="Sanitize Single File" Click="FileSelect" />
+        <Button Margin="5" Grid.Row="1" Grid.Column="1" Content="Sanitize Directory" Click="FolderSelect" />
     </Grid>
 </Window>
